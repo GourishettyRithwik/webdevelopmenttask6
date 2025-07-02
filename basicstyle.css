@@ -1,0 +1,22 @@
+form {
+  width: 300px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+#successMessage {
+  color: green;
+  font-weight: bold;
+}

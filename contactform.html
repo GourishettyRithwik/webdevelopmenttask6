@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="basicstyle.css" />
+</head>
+<body>
+
+  <form id="contactForm" novalidate>
+    <label>Name:
+      <input type="text" id="name" />
+      <small class="error" id="nameError"></small>
+    </label>
+
+    <label>Email:
+      <input type="email" id="email" />
+      <small class="error" id="emailError"></small>
+    </label>
+
+    <label>Message:
+      <textarea id="message"></textarea>
+      <small class="error" id="messageError"></small>
+    </label>
+
+    <button type="submit">Submit</button>
+    <p id="successMessage"></p>
+  </form>
+
+  <script src="logic.js"></script>
+</body>
+</html>
